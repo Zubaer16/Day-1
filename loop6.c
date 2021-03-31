@@ -5,12 +5,8 @@ int main()
 {
     char hex[17], bin[65] = "";
     int i = 0;
-
-    /* Input hexadecimal number from user */
     printf("Enter any hexadecimal number: ");
     gets(hex);
-
-    /* Extract first digit and find binary of each hex digit */
     for(i=0; hex[i]!='\0'; i++)
     {
         switch(hex[i])

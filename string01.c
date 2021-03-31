@@ -10,9 +10,9 @@
      while( s[i] != '\0' )
      {
 
-        if( s[i] >= 'a' && s[i] <= 'z' ) /*for uppercase 'a' will be A and '
+        if( s[i] >= 'a' && s[i] <= 'z' ) /*for lowercase output 'a' will be 'A' and 'z' will be 'Z'*/
         {
-           s[i] = s[i] - 32;
+           s[i] = s[i] - 32;    /* for lowercase output 32 will be added */
         }
         i++;
      }
